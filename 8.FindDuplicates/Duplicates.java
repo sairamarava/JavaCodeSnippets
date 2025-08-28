@@ -1,8 +1,9 @@
 import java.util.*;
 public class Duplicates {
     public static void main(String[] args) {
+        Scanner sc =new Scanner(System.in);
         Map<Character, Integer> freq= new HashMap<>();
-        String input="sai ram reddy";
+        String input=sc.nextLine();
         for(char ch: input.toCharArray()){
             freq.put(ch,freq.getOrDefault(ch, 0)+1);
         }
