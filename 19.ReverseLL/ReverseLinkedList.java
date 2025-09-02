@@ -32,7 +32,7 @@ public class ReverseLinkedList {
             curr = next;        // move curr
         }
         head = prev;
-    }
+    } 
 
     // Print linked list
     public void printList() {
