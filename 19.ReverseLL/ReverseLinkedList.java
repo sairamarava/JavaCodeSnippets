@@ -26,10 +26,10 @@ public class ReverseLinkedList {
     public void reverse() {
         Node prev = null, curr = head, next = null;
         while (curr != null) {
-            next = curr.next;   // store next
-            curr.next = prev;   // reverse link
+            next = curr.next;   // store next   
+            curr.next = prev;   // reverse link 
             prev = curr;        // move prev
-            curr = next;        // move curr
+            curr = next;                           // move curr
         }
         head = prev;
     } 

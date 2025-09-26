@@ -1,0 +1,10 @@
+Merge Sort is a divide and conquer algorithm that splits the array into halves, sorts each half, and then merges them back together.
+
+Steps:
+1. Divide the array into two halves.
+2. Recursively sort each half.
+3. Merge the sorted halves.
+
+Time Complexity: O(n log n)
+Space Complexity: O(n)
+Stable: Yes

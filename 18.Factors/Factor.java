@@ -3,7 +3,6 @@ public class Factor{
         for(int i=1;i<=Math.sqrt(num);i++){
             if(num%i==0){
                 System.out.print(i+" ");
-            
             if(i!=num/i) System.out.print(num/i+" ");
             }
         }

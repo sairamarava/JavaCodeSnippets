@@ -1,0 +1,11 @@
+Insertion Sort is a simple sorting algorithm that builds the final sorted array one item at a time. It is much less efficient on large lists than more advanced algorithms.
+
+Steps:
+1. Start from the second element, compare it with elements before it.
+2. Move all elements greater than the key to one position ahead.
+3. Insert the key at its correct position.
+4. Repeat for all elements.
+
+Time Complexity: O(n^2)
+Space Complexity: O(1)
+Stable: Yes

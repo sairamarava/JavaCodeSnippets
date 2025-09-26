@@ -39,7 +39,6 @@ This repository contains a collection of **basic to intermediate Java programs**
 - Practice problem-solving  
 
 ---
-
 ## ▶️ How to Run
 1. Clone this repository:
    ```bash

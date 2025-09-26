@@ -1,0 +1,10 @@
+Quick Sort is a divide and conquer algorithm. It picks an element as a pivot and partitions the array around the pivot.
+
+Steps:
+1. Choose a pivot element.
+2. Partition the array so that elements less than the pivot are on the left, and greater are on the right.
+3. Recursively apply the above steps to the sub-arrays.
+
+Time Complexity: O(n log n) (average)
+Space Complexity: O(log n)
+Stable: No

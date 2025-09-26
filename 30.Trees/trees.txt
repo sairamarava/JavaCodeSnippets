@@ -1,0 +1,46 @@
+Nodes=some N
+
+
+levels=log_2(N+1)
+Num of leaf nodes= 2^(log_2(n+1)-1)
+To check whether a given number is power of 2 or not:
+
+------------------------------
+
+if log of number ot base 2 is integer then it power of 2 else not 
+
+---------------------------------
+
+Binary search tree: 
+
+node.left.data<node.data<node.right.data
+
+Left most node is the smallest value node -- right most node is the largest value node 
+The next higher value node to root node is the leftmost node of right subtree
+
+Given the root address delete the node with value 20
+
+Algo:
+Let 20 is key. If key<root.data: root.left else: root.right
+If node to be deleted is left child of parent parent.left=none else parent.right=None 
+
+
+Given root remove root data 
+Find out the address of node whose value is just higher than root value ?
+Replace the root with it.
+
+1. node to be deleted is left child of parent and has left child
+2. node to be deleted 
+3.
+4.
+
+find out the kid address of curr: 
+if curr.left is not null then kid=curr.left else kid=curr.right 
+if parent.left is curr then parent.left=kid else parent.right=kid 
+
+
+Find height of the trees: Max(height of leftsubtree,rightsubtree)+1
+
+Checking whther a tree is balanced or not:
+If the absolute difference between max height of left and max right subtree <=1 then tree is balanced 
+for the tree to be balanced over all tree sohuld be balanced 
